@@ -142,7 +142,7 @@ public:
 			}
 			else
 			{
-				indSpriteX = 1;
+				indSpriteX = 0;
 			}
 			this->dx = 0;
 			this->dy = -10;
@@ -153,7 +153,7 @@ public:
 			if (this->indSpriteX >= 0 && this->indSpriteX < 2) { indSpriteX++; }
 			else
 			{
-				indSpriteX = 1;
+				indSpriteX = 0;
 			}
 			this->dx = 0;
 			this->dy = 10;
@@ -168,7 +168,7 @@ public:
 			}
 			else
 			{
-				indSpriteX = 1;
+				indSpriteX = 0;
 			}
 			this->dx = -10;
 			this->dy = 0;
@@ -182,7 +182,7 @@ public:
 			}
 			else
 			{
-				indSpriteX = 1;
+				indSpriteX = 0;
 			}
 			this->dx = +10;
 			this->dy = 0;
@@ -194,19 +194,19 @@ public:
 			switch (TeclaEnd)
 			{
 			case Up:
-				this->indSpriteX = 1;
+				this->indSpriteX = 0;
 				this->indSpriteY = 3;
 				break;
 			case Down:
-				this->indSpriteX = 1;
+				this->indSpriteX = 0;
 				this->indSpriteY = 0;
 				break;
 			case Left:
-				this->indSpriteX = 1;
+				this->indSpriteX = 0;
 				this->indSpriteY = 1;
 				break;
 			case Right:
-				this->indSpriteX = 1;
+				this->indSpriteX = 0;
 				this->indSpriteY = 2;
 				break;
 			}
